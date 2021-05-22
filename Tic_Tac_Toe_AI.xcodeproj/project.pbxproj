@@ -13,6 +13,7 @@
 		BD4ACBE0265894D5000E6B36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4ACBDF265894D5000E6B36 /* Preview Assets.xcassets */; };
 		BD4ACBEB265894D5000E6B36 /* Tic_Tac_Toe_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4ACBEA265894D5000E6B36 /* Tic_Tac_Toe_AITests.swift */; };
 		BD4ACBF6265894D5000E6B36 /* Tic_Tac_Toe_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4ACBF5265894D5000E6B36 /* Tic_Tac_Toe_AIUITests.swift */; };
+		BD96A6022658EF8300285733 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A6012658EF8300285733 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BD4ACBF1265894D5000E6B36 /* Tic_Tac_Toe_AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tic_Tac_Toe_AIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4ACBF5265894D5000E6B36 /* Tic_Tac_Toe_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_Toe_AIUITests.swift; sourceTree = "<group>"; };
 		BD4ACBF7265894D5000E6B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD96A6012658EF8300285733 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				BD4ACBD8265894D3000E6B36 /* Tic_Tac_Toe_AIApp.swift */,
 				BD4ACBDA265894D3000E6B36 /* ContentView.swift */,
+				BD96A6012658EF8300285733 /* Alerts.swift */,
 				BD4ACBDC265894D5000E6B36 /* Assets.xcassets */,
 				BD4ACBE1265894D5000E6B36 /* Info.plist */,
 				BD4ACBDE265894D5000E6B36 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4ACBDB265894D3000E6B36 /* ContentView.swift in Sources */,
+				BD96A6022658EF8300285733 /* Alerts.swift in Sources */,
 				BD4ACBD9265894D3000E6B36 /* Tic_Tac_Toe_AIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
