@@ -92,12 +92,13 @@ struct ContentView: View {
         return moves.contains(where: {$0?.boardIndex == index})
     }
     
-    //If AI can win, then win
-    //If AI cna't win, then block
-    //If AI can't block, then take middle square
-    //IF AI can't take middle square, thean random available square
     
     func determineComputerMovePosition(in moves:[Move?]) -> Int {
+        //If AI can win, then win
+        //If AI cna't win, then block
+        //If AI can't block, then take middle square
+        //IF AI can't take middle square, thean random available square
+        
     
         //If AI can win, then win
         
